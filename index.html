@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Third Street Tattoo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════ NAVBAR ═══════ -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="navbar__brand">Third Street Tattoo</a>
+    <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="navbar__links" id="navLinks" role="list">
+      <li><a href="index.html"   class="navbar__link navbar__link--active">Home</a></li>
+      <li><a href="about.html"   class="navbar__link">About</a></li>
+      <li><a href="artists.html" class="navbar__link">Artists</a></li>
+      <li><a href="contact.html" class="navbar__link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════ HERO ═══════ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="images/hero.jpg" alt="" class="hero__img" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="ornament-divider">
+        <span class="ornament-divider__line"></span>
+        <span class="ornament-divider__gem">◆</span>
+        <span class="ornament-divider__line"></span>
+      </div>
+      <h1 class="hero__title">Third Street<br />Tattoo</h1>
+      <div class="ornament-divider">
+        <span class="ornament-divider__line"></span>
+        <span class="ornament-divider__gem">◆</span>
+        <span class="ornament-divider__line"></span>
+      </div>
+      <p class="hero__tagline">
+        Insert some cool text about how awesome your tattoo studio is and stuff.<br class="br-desktop" />
+      </p>
+      <a href="contact.html" class="btn">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- ═══════ NAV CARDS ═══════ -->
+  <section class="nav-cards-section">
+    <div class="section-header">
+      <div class="ornament-divider ornament-divider--center">
+        <span class="ornament-divider__line"></span>
+        <span class="ornament-divider__gem">◆</span>
+        <span class="ornament-divider__line"></span>
+      </div>
+      <h2 class="section-title">Discover More</h2>
+      <div class="ornament-divider ornament-divider--center">
+        <span class="ornament-divider__line"></span>
+        <span class="ornament-divider__gem">◆</span>
+        <span class="ornament-divider__line"></span>
+      </div>
+    </div>
+    <div class="nav-cards">
+      <a href="artists.html" class="nav-card">
+        <div class="nav-card__content">
+          <h3 class="nav-card__title">Meet the Artists</h3>
+          <p class="nav-card__text">Cool blurb here about your talented artists and the awesome work you all do. Each artist will be featured on the actual artist page.  Each artist will have a gallery of their work in whatever style you choose (carousel/slideshow, pop up scroller, grid preview system, etc)</p>
+          <span class="nav-card__cta">View Artists <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+      <a href="about.html" class="nav-card">
+        <div class="nav-card__content">
+          <h3 class="nav-card__title">Our Story</h3>
+          <p class="nav-card__text">Cool blurb here about the history and values of your tattoo studio. You can put more on the actual about page.</p>
+          <span class="nav-card__cta">About Us <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════ FEATURED CAROUSEL ═══════ -->
+  <section class="featured-section">
+    <div class="section-header">
+      <p class="section-eyebrow">Gallery</p>
+      <h2 class="section-title">Featured Work</h2>
+      <div class="ornament-divider ornament-divider--center">
+        <span class="ornament-divider__line"></span>
+        <span class="ornament-divider__gem">◆</span>
+        <span class="ornament-divider__line"></span>
+      </div>
+    </div>
+    <div class="carousel-outer">
+      <button class="carousel-arrow carousel-arrow--prev" id="carouselPrev" aria-label="Previous slide">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <div class="carousel-viewport">
+        <div class="carousel-track" id="carouselTrack">
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/0A0A0A/C9A84C?text=Featured+Work" alt="Featured tattoo 1" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/111111/C9A84C?text=Featured+Work" alt="Featured tattoo 2" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/161616/C9A84C?text=Featured+Work" alt="Featured tattoo 3" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/0C0C0C/C9A84C?text=Featured+Work" alt="Featured tattoo 4" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/131313/C9A84C?text=Featured+Work" alt="Featured tattoo 5" />
+          </figure>
+          <figure class="carousel-slide">
+            <img src="https://placehold.co/600x750/0E0E0E/C9A84C?text=Featured+Work" alt="Featured tattoo 6" />
+          </figure>
+        </div>
+      </div>
+      <button class="carousel-arrow carousel-arrow--next" id="carouselNext" aria-label="Next slide">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="carousel-dots" id="carouselDots" aria-label="Carousel navigation"></div>
+  </section>
+
+  <!-- ═══════ FOOTER ═══════ -->
+  <footer class="footer">
+    <div class="footer__ornament">
+      <span class="footer__ornament-line"></span>
+      <span class="footer__ornament-text">✦ Third Street Tattoo ✦</span>
+      <span class="footer__ornament-line"></span>
+    </div>
+    <div class="footer__inner">
+      <div class="footer__col footer__col--brand">
+        <p class="footer__brand-name">Third Street Tattoo</p>
+        <p class="footer__brand-tagline">Some sick tagline here chyeah.</p>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-label">Follow</p>
+        <div class="footer__socials">
+          <a href="#" class="footer__social" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="footer__social" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer__social" aria-label="TikTok" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-label">Find Us</p>
+        <address class="footer__address">
+          115 3rd Street<br />
+          Elkins, WV 26241
+        </address>
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=115+3rd+Street,+Elkins,+WV+26241"
+          class="footer__map-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-location-arrow"></i>
+          Get Directions
+        </a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2018 Third Street Tattoo. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
